@@ -55,7 +55,8 @@ async function fetchData() {
   pullStop = false;
   try {
     const transport = createGrpcWebTransport({
-      baseUrl: 'http://127.0.0.1:9087',
+      baseUrl: 'http://10.0.0.118:9087',
+      // baseUrl: 'http://localhost:9087',
     });
 
     const client = createPromiseClient(Service, transport);

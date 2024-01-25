@@ -17,7 +17,7 @@
     "grpc-web": "^1.5.0",
     "vite-plugin-commonjs": "^0.10.1",
     "vue": "^3.3.4",
-    "ams-protos-ts": "git+ssh://git@atlassian.carcgl.com:7999/ams/ams-protos-ts.git#feature/AMS-868-fetch-alarm-fault-message-from-grpc-server-use-grpc-web"
+    "ams-protos-ts": "git+ssh://git@atlassian.carcgl.com:7999/ams/ams-protos-ts.git#v1.0.0"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.5.6",
