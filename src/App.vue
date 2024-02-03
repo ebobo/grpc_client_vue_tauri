@@ -1,15 +1,15 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import Fetch from './components/Fetch.vue';
-//import Hello from './components/Hello.vue';
+// import Fetch from './components/Fetch.vue';
+import Hello from './components/Hello.vue';
 </script>
 
 <template>
   <div class="container">
     <h1>Welcome to Vue + Tauri + gRPC app !</h1>
 
-    <Fetch />
+    <Hello />
   </div>
 </template>
 
